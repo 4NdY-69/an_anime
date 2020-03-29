@@ -1,0 +1,9 @@
+html,header,div,span,section,footer,body,a,a:link,a:visited{
+  margin: 0;
+  padding: 0;
+  color:#eee;
+  text-decoration:none;
+  box-sizing: border-box;
+  background-color:#222;
+}
+
