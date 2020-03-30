@@ -1,0 +1,60 @@
+#header{
+  width: 100vw;
+  height:60px;
+  line-height: 30px;
+  padding: 10px 15px;
+  background-color:#222;
+  box-sizing: border-box;
+  position:relative;
+}
+#nav ul li{
+  list-style: none;
+  display: inline;
+  margin: 0 0px;
+  background: #222;
+  padding: 15px 20px;
+  border-radius:30px;
+  position:relative;
+  cursor: pointer;
+
+}
+#nav ul li a{
+  font-family: 'Changa', sans-serif;
+
+}
+#nav ul li span{
+  content: "";
+  display: inline-block;
+  width:0%;
+  border-bottom:2px solid white;
+  position:absolute;
+  bottom:5px;
+  left:50%;
+  right:50%;
+}
+#nav ul li:hover span{
+  width:70%;
+  left:18%;
+  right:12%;
+  transition: width, left, right, .4s ease-in;
+}
+#logo a{
+  display:inline;
+  font-size:30px;
+  font-family: 'Spicy Rice', cursive;
+  position:relative;
+  top:7px;
+}
+ul{
+  display: inline;
+
+}
+#nav ul li:hover{
+  /*background-color:#eee;*/
+  /*color:#222;*/
+  /*transition: color,background-color 0.4s ease-in;*/
+  /*cursor: pointer;*/
+}
+#nav ul li:hover a{
+  /*color:#222;*/
+}
