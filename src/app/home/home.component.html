@@ -1,10 +1,12 @@
 <div class="body">
   <div id="continer">
     <div id="slider">
-      <div class="continer" *ngFor="let slider of TheSlider; let idx = index">
+      <div class="continer" *ngFor="let slider of TheSlider; let idx = index" style="right:100%">
         Hello World {{slider}} the index is {{idx}}!
+        
         <!-- <img alt="#" src="../../assets/img/img.png"> -->
       </div>
     </div>
   </div>
+  <!-- <button "setTimeout(this.change_it, 1000, 'my text')">click</button> -->
 </div>
