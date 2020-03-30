@@ -6,12 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  TheSlider: {};
+  TheSlider: any[];
   constructor() {
-    this.TheSlider = {one: 'green', 2: 'blue', 3: 'red', 4: 'white', 5: 'black'};
+    this.TheSlider = [1,2,3,4,5];
+    
   }
 
   ngOnInit(): void {
+    
   }
 
 }

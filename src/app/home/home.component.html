@@ -1,9 +1,9 @@
 <div class="body">
   <div id="continer">
     <div id="slider">
-      <div class="continer">
-        Hello World {{TheSlider['one']}} !
-        <!--<img alt="#" src="../../assets/img/img.png">-->
+      <div class="continer" *ngFor="let slider of TheSlider; let idx = index">
+        Hello World {{slider}} the index is {{idx}}!
+        <!-- <img alt="#" src="../../assets/img/img.png"> -->
       </div>
     </div>
   </div>
